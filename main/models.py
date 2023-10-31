@@ -7,6 +7,6 @@ class Home(models.Model):
     def __str__(self) -> str:
         return self.title
     
-class Meta:
-    verbose_name = 'Home'
-    verbose_name_plural = 'Homes'
+    class Meta:
+        verbose_name = 'Home'
+        verbose_name_plural = 'Homes'

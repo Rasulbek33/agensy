@@ -5,3 +5,4 @@ from main.models import Home
 class Home(admin.ModelAdmin):
     list_display = ('title',)
     list_display_links = ('title',)
+
